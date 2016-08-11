@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{5510A9A9-59D0-4F07-A1AF-2998290F1F1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stopwatch", "Stopwatch\Stopwatch.csproj", "{5510A9A9-59D0-4F07-A1AF-2998290F1F1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication2
+namespace Stopwatch
 {
     public partial class Form1 : Form
     {
@@ -13,7 +14,6 @@ namespace WindowsFormsApplication2
             timer1 = new System.Windows.Forms.Timer();
             timer1.Interval = 1000; // specify interval time as you want
             timer1.Tick += new EventHandler(timer1_Tick);
-            timer1.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -77,6 +77,10 @@ namespace WindowsFormsApplication2
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
